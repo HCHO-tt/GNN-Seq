@@ -1,0 +1,4 @@
+{
+  "tests/test_system.py::test_parallel_collector_matches_serial_trajectory[graph]": true,
+  "tests/test_system.py::test_parallel_collector_matches_serial_trajectory[stats]": true
+}
