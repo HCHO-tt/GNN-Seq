@@ -1,0 +1,11 @@
+{
+  "status": "pending_explicit_problem_suite",
+  "training_key": "M_2_46_3",
+  "training_steps": 1332,
+  "task_counts": {
+    "DTLZ2_3": 343,
+    "WFG4_3": 559,
+    "WFG6_3": 454
+  },
+  "example": "python -B evaluate.py --model runs/formal_server_m3_graph_s2022/model --suite all --runs 30 --output runs/formal_server_m3_graph_s2022/evaluation_suite.json"
+}
