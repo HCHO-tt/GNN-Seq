@@ -1,0 +1,184 @@
+[
+  {
+    "key": "M_2_46_3",
+    "task_count": 3,
+    "tasks": [
+      {
+        "function": "DTLZ2",
+        "objectives": 3,
+        "variables": 6,
+        "population": 210,
+        "generations": 300,
+        "evolution_evaluations": 63000
+      },
+      {
+        "function": "WFG4",
+        "objectives": 3,
+        "variables": 6,
+        "population": 210,
+        "generations": 300,
+        "evolution_evaluations": 63000
+      },
+      {
+        "function": "WFG6",
+        "objectives": 3,
+        "variables": 6,
+        "population": 210,
+        "generations": 300,
+        "evolution_evaluations": 63000
+      }
+    ]
+  },
+  {
+    "key": "M_2_46_5",
+    "task_count": 3,
+    "tasks": [
+      {
+        "function": "DTLZ2",
+        "objectives": 5,
+        "variables": 8,
+        "population": 210,
+        "generations": 500,
+        "evolution_evaluations": 105000
+      },
+      {
+        "function": "WFG4",
+        "objectives": 5,
+        "variables": 8,
+        "population": 210,
+        "generations": 500,
+        "evolution_evaluations": 105000
+      },
+      {
+        "function": "WFG6",
+        "objectives": 5,
+        "variables": 8,
+        "population": 210,
+        "generations": 500,
+        "evolution_evaluations": 105000
+      }
+    ]
+  },
+  {
+    "key": "M_2_46_7",
+    "task_count": 3,
+    "tasks": [
+      {
+        "function": "DTLZ2",
+        "objectives": 7,
+        "variables": 10,
+        "population": 210,
+        "generations": 700,
+        "evolution_evaluations": 147000
+      },
+      {
+        "function": "WFG4",
+        "objectives": 7,
+        "variables": 10,
+        "population": 210,
+        "generations": 700,
+        "evolution_evaluations": 147000
+      },
+      {
+        "function": "WFG6",
+        "objectives": 7,
+        "variables": 10,
+        "population": 210,
+        "generations": 700,
+        "evolution_evaluations": 147000
+      }
+    ]
+  },
+  {
+    "key": "M_2_46_357",
+    "task_count": 9,
+    "tasks": [
+      {
+        "function": "DTLZ2",
+        "objectives": 3,
+        "variables": 6,
+        "population": 210,
+        "generations": 300,
+        "evolution_evaluations": 63000
+      },
+      {
+        "function": "DTLZ2",
+        "objectives": 5,
+        "variables": 8,
+        "population": 210,
+        "generations": 500,
+        "evolution_evaluations": 105000
+      },
+      {
+        "function": "DTLZ2",
+        "objectives": 7,
+        "variables": 10,
+        "population": 210,
+        "generations": 700,
+        "evolution_evaluations": 147000
+      },
+      {
+        "function": "WFG4",
+        "objectives": 3,
+        "variables": 6,
+        "population": 210,
+        "generations": 300,
+        "evolution_evaluations": 63000
+      },
+      {
+        "function": "WFG4",
+        "objectives": 5,
+        "variables": 8,
+        "population": 210,
+        "generations": 500,
+        "evolution_evaluations": 105000
+      },
+      {
+        "function": "WFG4",
+        "objectives": 7,
+        "variables": 10,
+        "population": 210,
+        "generations": 700,
+        "evolution_evaluations": 147000
+      },
+      {
+        "function": "WFG6",
+        "objectives": 3,
+        "variables": 6,
+        "population": 210,
+        "generations": 300,
+        "evolution_evaluations": 63000
+      },
+      {
+        "function": "WFG6",
+        "objectives": 5,
+        "variables": 8,
+        "population": 210,
+        "generations": 500,
+        "evolution_evaluations": 105000
+      },
+      {
+        "function": "WFG6",
+        "objectives": 7,
+        "variables": 10,
+        "population": 210,
+        "generations": 700,
+        "evolution_evaluations": 147000
+      }
+    ]
+  },
+  {
+    "key": "DTLZ2_5",
+    "task_count": 1,
+    "tasks": [
+      {
+        "function": "DTLZ2",
+        "objectives": 5,
+        "variables": 8,
+        "population": 210,
+        "generations": 500,
+        "evolution_evaluations": 105000
+      }
+    ]
+  }
+]
