@@ -1,0 +1,36 @@
+{
+  "syntax_checked_files": 12,
+  "tests": {
+    "passed": 16,
+    "failed": 0,
+    "report": "runs/test_results.xml"
+  },
+  "original_files_verified": 1975,
+  "graph_checkpoint_reproduced_evaluation": true,
+  "runs": {
+    "smoke_graph": {
+      "steps": 40,
+      "updates": 8,
+      "mean_best_igd": 0.520816613836391
+    },
+    "smoke_stats": {
+      "steps": 40,
+      "updates": 8,
+      "mean_best_igd": 0.520816613836391
+    },
+    "pilot_graph": {
+      "steps": 400,
+      "updates": 8,
+      "mean_best_igd": 0.4958147716351755
+    },
+    "pilot_stats": {
+      "steps": 400,
+      "updates": 8,
+      "mean_best_igd": 0.4323662002486112
+    }
+  },
+  "entrypoints": {
+    "direct_python": "training, evaluation, tests and integrity verification passed",
+    "powershell_wrapper": "blocked by existing system execution policy; no policy changes made"
+  }
+}
