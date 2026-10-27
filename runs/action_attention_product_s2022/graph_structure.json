@@ -1,0 +1,47 @@
+{
+  "episodes": 8,
+  "states": 40,
+  "population": 35,
+  "mean_union_neighbours": 15.790000000000001,
+  "mean_two_hop_reachable_fraction": 0.9996326530612244,
+  "mean_directed_relation_jaccard": 0.18368738404452692,
+  "mean_objective_neighbour_jaccard_next_generation": 0.19453656462585034,
+  "mean_node_hidden_std_after_input_layer1_layer2": [
+    0.07892444916069508,
+    0.04470031149685383,
+    0.02682293555699289
+  ],
+  "feature_groups": {
+    "weights": {
+      "within_graph_node_std": 0.18788154423236847,
+      "between_graph_mean_std": 0.006777566857635975,
+      "zero_fraction": 0.68
+    },
+    "objectives": {
+      "within_graph_node_std": 0.2788364887237549,
+      "between_graph_mean_std": 0.0736883133649826,
+      "zero_fraction": 0.2904081632653061
+    },
+    "ideal_gaps": {
+      "within_graph_node_std": 0.2788364291191101,
+      "between_graph_mean_std": 0.07271312177181244,
+      "zero_fraction": 0.4247959183673469
+    },
+    "mask": {
+      "within_graph_node_std": 0.0,
+      "between_graph_mean_std": 0.0,
+      "zero_fraction": 0.2857142857142857
+    },
+    "fitness_and_distances": {
+      "within_graph_node_std": 0.11472991108894348,
+      "between_graph_mean_std": 0.10774025321006775,
+      "zero_fraction": 0.0
+    },
+    "history": {
+      "within_graph_node_std": 0.11270250380039215,
+      "between_graph_mean_std": 0.17985986173152924,
+      "zero_fraction": 0.3082142857142857
+    }
+  },
+  "context_mean_std": 0.3308698236942291
+}

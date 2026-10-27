@@ -1,0 +1,56 @@
+{
+  "before_updates": 0,
+  "after_updates": 8,
+  "episodes": 2,
+  "changed_decisions": 4,
+  "decisions": 40,
+  "changed_episodes": 2,
+  "mean_final_igd_before": 0.6319405784703606,
+  "mean_final_igd_after": 0.631633445586389,
+  "parameter_change": {
+    "agent0.th": {
+      "l2": 0.029507620260119438,
+      "max_absolute": 0.0007995292544364929
+    },
+    "agent1.th": {
+      "l2": 0.026500405743718147,
+      "max_absolute": 0.0007976442575454712
+    },
+    "agent2.th": {
+      "l2": 0.03109348751604557,
+      "max_absolute": 0.0007925555109977722
+    },
+    "agent3.th": {
+      "l2": 0.031843289732933044,
+      "max_absolute": 0.0007956810295581818
+    },
+    "graph_encoder.th": {
+      "l2": 0.026109842583537102,
+      "max_absolute": 0.0007986351847648621
+    },
+    "action_readouts.th": {
+      "l2": 0.03532085940241814,
+      "max_absolute": 0.0007999241352081299
+    }
+  },
+  "pairs": [
+    {
+      "task": "DTLZ2_5",
+      "seed": 9001,
+      "before_final_igd": 0.6276562363021247,
+      "after_final_igd": 0.5515236101504896,
+      "after_minus_before": -0.07613262615163519,
+      "changed_decisions": 3,
+      "decisions": 20
+    },
+    {
+      "task": "DTLZ2_5",
+      "seed": 9002,
+      "before_final_igd": 0.6362249206385964,
+      "after_final_igd": 0.7117432810222886,
+      "after_minus_before": 0.0755183603836922,
+      "changed_decisions": 1,
+      "decisions": 20
+    }
+  ]
+}

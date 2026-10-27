@@ -1,0 +1,143 @@
+{
+  "mode": "graph",
+  "training_key": "DTLZ2_5",
+  "checkpoint": "C:\\Users\\Ting\\Desktop\\jt\\jt_\\GNN-Seq\\runs\\action_attention_product_s2022\\initial",
+  "training_steps": 0,
+  "training_t_env": 0,
+  "suite": "single",
+  "greedy": true,
+  "evaluation_seeds": [
+    9001,
+    9002
+  ],
+  "untrained_diagnostic": true,
+  "metric": "final IGD of last population is primary; best IGD is secondary",
+  "groups": {
+    "seen": {
+      "tasks": {
+        "DTLZ2_5": {
+          "runs": 2,
+          "mean_final_igd": 0.6319405784703606,
+          "std_final_igd": 0.006058974800166036,
+          "mean_best_igd": 0.520816613836391,
+          "mean_return": 0.0
+        }
+      },
+      "mean_of_task_mean_final_igd": 0.6319405784703606
+    },
+    "unseen": {
+      "tasks": {},
+      "mean_of_task_mean_final_igd": null
+    }
+  },
+  "evaluations": [
+    {
+      "task": "DTLZ2_5",
+      "seed": 9001,
+      "function": "DTLZ2",
+      "objectives": 5,
+      "variables": 8,
+      "population_size": 35,
+      "steps": 5,
+      "return": 0.0,
+      "actions": [
+        [
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      "rewards": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "weight_updates": 4,
+      "replacement_events": 153,
+      "best_igd": 0.5182302234918159,
+      "last_igd": 0.6276562363021247
+    },
+    {
+      "task": "DTLZ2_5",
+      "seed": 9002,
+      "function": "DTLZ2",
+      "objectives": 5,
+      "variables": 8,
+      "population_size": 35,
+      "steps": 5,
+      "return": 0.0,
+      "actions": [
+        [
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          0
+        ]
+      ],
+      "rewards": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "weight_updates": 4,
+      "replacement_events": 136,
+      "best_igd": 0.5234030041809662,
+      "last_igd": 0.6362249206385964
+    }
+  ],
+  "mean_best_igd": 0.520816613836391,
+  "mean_final_igd": 0.6319405784703606
+}
