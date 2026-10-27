@@ -1,0 +1,11 @@
+{
+  "status": "pending_explicit_problem_suite",
+  "training_key": "M_2_46_5",
+  "training_steps": 38,
+  "task_counts": {
+    "DTLZ2_5": 13,
+    "WFG4_5": 13,
+    "WFG6_5": 14
+  },
+  "example": "python -B evaluate.py --model runs/action_l1_m5_s2022/model --suite all --runs 30 --output runs/action_l1_m5_s2022/evaluation_suite.json"
+}

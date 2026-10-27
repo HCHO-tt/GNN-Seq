@@ -1,0 +1,254 @@
+{
+  "before_updates": 0,
+  "after_updates": 38,
+  "episodes": 24,
+  "changed_decisions": 858,
+  "decisions": 1920,
+  "changed_episodes": 24,
+  "mean_final_igd_before": 0.4417027318878028,
+  "mean_final_igd_after": 0.42907445693510954,
+  "parameter_change": {
+    "agent0.th": {
+      "l2": 0.07974600046873093,
+      "max_absolute": 0.0034453272819519043
+    },
+    "agent1.th": {
+      "l2": 0.09668794274330139,
+      "max_absolute": 0.0035756267607212067
+    },
+    "agent2.th": {
+      "l2": 0.11935431510210037,
+      "max_absolute": 0.0033624470233917236
+    },
+    "agent3.th": {
+      "l2": 0.1167655810713768,
+      "max_absolute": 0.003791235387325287
+    },
+    "graph_encoder.th": {
+      "l2": 0.22567372024059296,
+      "max_absolute": 0.0037690065801143646
+    },
+    "action_readouts.th": {
+      "l2": 0.3694365620613098,
+      "max_absolute": 0.0038451403379440308
+    }
+  },
+  "pairs": [
+    {
+      "task": "DTLZ2_5",
+      "seed": 9001,
+      "before_final_igd": 0.522128426551727,
+      "after_final_igd": 0.5216614400900859,
+      "after_minus_before": -0.0004669864616411168,
+      "changed_decisions": 40,
+      "decisions": 80
+    },
+    {
+      "task": "DTLZ2_5",
+      "seed": 9002,
+      "before_final_igd": 0.49552717298121207,
+      "after_final_igd": 0.547137972146785,
+      "after_minus_before": 0.051610799165572874,
+      "changed_decisions": 40,
+      "decisions": 80
+    },
+    {
+      "task": "DTLZ2_5",
+      "seed": 9003,
+      "before_final_igd": 0.5355740348313105,
+      "after_final_igd": 0.516300977801414,
+      "after_minus_before": -0.019273057029896457,
+      "changed_decisions": 40,
+      "decisions": 80
+    },
+    {
+      "task": "DTLZ4_5",
+      "seed": 9001,
+      "before_final_igd": 0.5080198607415688,
+      "after_final_igd": 0.48148546777464457,
+      "after_minus_before": -0.026534392966924225,
+      "changed_decisions": 24,
+      "decisions": 80
+    },
+    {
+      "task": "DTLZ4_5",
+      "seed": 9002,
+      "before_final_igd": 0.7184713817848268,
+      "after_final_igd": 0.5390059838486138,
+      "after_minus_before": -0.17946539793621308,
+      "changed_decisions": 10,
+      "decisions": 80
+    },
+    {
+      "task": "DTLZ4_5",
+      "seed": 9003,
+      "before_final_igd": 0.574800170993176,
+      "after_final_igd": 0.47147892056520063,
+      "after_minus_before": -0.10332125042797541,
+      "changed_decisions": 19,
+      "decisions": 80
+    },
+    {
+      "task": "WFG4_5",
+      "seed": 9001,
+      "before_final_igd": 0.3479225567424505,
+      "after_final_igd": 0.35479104282758456,
+      "after_minus_before": 0.0068684860851340734,
+      "changed_decisions": 38,
+      "decisions": 80
+    },
+    {
+      "task": "WFG4_5",
+      "seed": 9002,
+      "before_final_igd": 0.3215126087353879,
+      "after_final_igd": 0.3599342236249521,
+      "after_minus_before": 0.03842161488956419,
+      "changed_decisions": 38,
+      "decisions": 80
+    },
+    {
+      "task": "WFG4_5",
+      "seed": 9003,
+      "before_final_igd": 0.39128862361326794,
+      "after_final_igd": 0.3495828155842654,
+      "after_minus_before": -0.041705808029002533,
+      "changed_decisions": 39,
+      "decisions": 80
+    },
+    {
+      "task": "WFG5_5",
+      "seed": 9001,
+      "before_final_igd": 0.37312178513677546,
+      "after_final_igd": 0.39177220962900544,
+      "after_minus_before": 0.018650424492229978,
+      "changed_decisions": 37,
+      "decisions": 80
+    },
+    {
+      "task": "WFG5_5",
+      "seed": 9002,
+      "before_final_igd": 0.3633594944239164,
+      "after_final_igd": 0.3566379470939457,
+      "after_minus_before": -0.006721547329970712,
+      "changed_decisions": 38,
+      "decisions": 80
+    },
+    {
+      "task": "WFG5_5",
+      "seed": 9003,
+      "before_final_igd": 0.3754969825044525,
+      "after_final_igd": 0.37252344245995295,
+      "after_minus_before": -0.0029735400444995674,
+      "changed_decisions": 37,
+      "decisions": 80
+    },
+    {
+      "task": "WFG6_5",
+      "seed": 9001,
+      "before_final_igd": 0.4245818588575518,
+      "after_final_igd": 0.409518098497782,
+      "after_minus_before": -0.015063760359769807,
+      "changed_decisions": 38,
+      "decisions": 80
+    },
+    {
+      "task": "WFG6_5",
+      "seed": 9002,
+      "before_final_igd": 0.37775186706285563,
+      "after_final_igd": 0.3844257273473288,
+      "after_minus_before": 0.006673860284473199,
+      "changed_decisions": 38,
+      "decisions": 80
+    },
+    {
+      "task": "WFG6_5",
+      "seed": 9003,
+      "before_final_igd": 0.43858494359000466,
+      "after_final_igd": 0.4068415621605338,
+      "after_minus_before": -0.03174338142947086,
+      "changed_decisions": 37,
+      "decisions": 80
+    },
+    {
+      "task": "WFG7_5",
+      "seed": 9001,
+      "before_final_igd": 0.37657857744251494,
+      "after_final_igd": 0.4188560505636588,
+      "after_minus_before": 0.04227747312114388,
+      "changed_decisions": 38,
+      "decisions": 80
+    },
+    {
+      "task": "WFG7_5",
+      "seed": 9002,
+      "before_final_igd": 0.4017610175958833,
+      "after_final_igd": 0.39253318274261184,
+      "after_minus_before": -0.009227834853271444,
+      "changed_decisions": 40,
+      "decisions": 80
+    },
+    {
+      "task": "WFG7_5",
+      "seed": 9003,
+      "before_final_igd": 0.42555881417364044,
+      "after_final_igd": 0.42247151070891853,
+      "after_minus_before": -0.0030873034647219133,
+      "changed_decisions": 39,
+      "decisions": 80
+    },
+    {
+      "task": "WFG8_5",
+      "seed": 9001,
+      "before_final_igd": 0.49765629328036737,
+      "after_final_igd": 0.45877059825334815,
+      "after_minus_before": -0.03888569502701922,
+      "changed_decisions": 37,
+      "decisions": 80
+    },
+    {
+      "task": "WFG8_5",
+      "seed": 9002,
+      "before_final_igd": 0.4564619729754367,
+      "after_final_igd": 0.44647491474759265,
+      "after_minus_before": -0.00998705822784407,
+      "changed_decisions": 39,
+      "decisions": 80
+    },
+    {
+      "task": "WFG8_5",
+      "seed": 9003,
+      "before_final_igd": 0.48479768449295063,
+      "after_final_igd": 0.4530856898754606,
+      "after_minus_before": -0.031711994617490025,
+      "changed_decisions": 39,
+      "decisions": 80
+    },
+    {
+      "task": "WFG9_5",
+      "seed": 9001,
+      "before_final_igd": 0.42739498513872193,
+      "after_final_igd": 0.3975415273406578,
+      "after_minus_before": -0.029853457798064142,
+      "changed_decisions": 41,
+      "decisions": 80
+    },
+    {
+      "task": "WFG9_5",
+      "seed": 9002,
+      "before_final_igd": 0.3795015377067207,
+      "after_final_igd": 0.3871285109076088,
+      "after_minus_before": 0.007626973200888121,
+      "changed_decisions": 35,
+      "decisions": 80
+    },
+    {
+      "task": "WFG9_5",
+      "seed": 9003,
+      "before_final_igd": 0.38301291395054704,
+      "after_final_igd": 0.45782714985067785,
+      "after_minus_before": 0.07481423590013081,
+      "changed_decisions": 37,
+      "decisions": 80
+    }
+  ]
+}
